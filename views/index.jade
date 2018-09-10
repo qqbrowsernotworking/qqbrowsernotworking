@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 enter any username
+  form(method="post" action="/login")
+    input(name="username" type="text")
+    input(type="submit", value="login")
+  
